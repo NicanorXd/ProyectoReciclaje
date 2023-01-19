@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Folder Include="Producto\Write\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Producto.Dominio\Producto.Dominio.csproj" />
+		<ProjectReference Include="..\Producto.Infraestructura\Producto.Infraestructura.csproj" />
+	</ItemGroup>
+
+</Project>
