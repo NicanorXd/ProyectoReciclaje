@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "63c8a2ac1936975259cf00a5"
+  },
+  "idProducto": 1,
+  "nombre": "arroz",
+  "descripcion": "hecho a base de trigo",
+  "precio": 1,
+  "categoria": "granos",
+  "imagenes": "img01",
+  "stock": 1
+}]
