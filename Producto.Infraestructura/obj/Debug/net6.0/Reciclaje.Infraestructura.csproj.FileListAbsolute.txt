@@ -1,0 +1,15 @@
+C:\Users\josh_\Source\Repos\ProyectoNicanor\Producto.Infraestructura\bin\Debug\net6.0\Reciclaje.Infraestructura.deps.json
+C:\Users\josh_\Source\Repos\ProyectoNicanor\Producto.Infraestructura\bin\Debug\net6.0\Reciclaje.Infraestructura.dll
+C:\Users\josh_\Source\Repos\ProyectoNicanor\Producto.Infraestructura\bin\Debug\net6.0\Reciclaje.Infraestructura.pdb
+C:\Users\josh_\Source\Repos\ProyectoNicanor\Producto.Infraestructura\obj\Debug\net6.0\Reciclaje.Infraestructura.csproj.AssemblyReference.cache
+C:\Users\josh_\Source\Repos\ProyectoNicanor\Producto.Infraestructura\obj\Debug\net6.0\Reciclaje.Infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josh_\Source\Repos\ProyectoNicanor\Producto.Infraestructura\obj\Debug\net6.0\Reciclaje.Infraestructura.AssemblyInfoInputs.cache
+C:\Users\josh_\Source\Repos\ProyectoNicanor\Producto.Infraestructura\obj\Debug\net6.0\Reciclaje.Infraestructura.AssemblyInfo.cs
+C:\Users\josh_\Source\Repos\ProyectoNicanor\Producto.Infraestructura\obj\Debug\net6.0\Reciclaje.Infraestructura.csproj.CoreCompileInputs.cache
+C:\Users\josh_\Source\Repos\ProyectoNicanor\Producto.Infraestructura\obj\Debug\net6.0\Reciclaje.Infraestructura.dll
+C:\Users\josh_\Source\Repos\ProyectoNicanor\Producto.Infraestructura\obj\Debug\net6.0\refint\Reciclaje.Infraestructura.dll
+C:\Users\josh_\Source\Repos\ProyectoNicanor\Producto.Infraestructura\obj\Debug\net6.0\Reciclaje.Infraestructura.pdb
+C:\Users\josh_\Source\Repos\ProyectoNicanor\Producto.Infraestructura\obj\Debug\net6.0\ref\Reciclaje.Infraestructura.dll
+C:\Users\nicac\Downloads\ProyectoReciclaje\Producto.Infraestructura\obj\Debug\net6.0\Reciclaje.Infraestructura.dll
+C:\Users\nicac\Downloads\ProyectoReciclaje\Producto.Infraestructura\obj\Debug\net6.0\refint\Reciclaje.Infraestructura.dll
+C:\Users\nicac\Downloads\ProyectoReciclaje\Producto.Infraestructura\obj\Debug\net6.0\Reciclaje.Infraestructura.pdb
