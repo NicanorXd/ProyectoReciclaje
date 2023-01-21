@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "63cb5fdf9653ab442b0f8d26"
+  },
+  "materialId": 1,
+  "materialDescr": "material de plastico",
+  "unidadMediadId": 1,
+  "materialPrecioUnidad": 1.5,
+  "materialLimite": 10
+}]
