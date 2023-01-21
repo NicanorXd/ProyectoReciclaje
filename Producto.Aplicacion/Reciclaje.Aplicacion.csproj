@@ -7,12 +7,12 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Folder Include="Producto\Write\" />
+		<Folder Include="Reciclaje\Write\" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Producto.Dominio\Producto.Dominio.csproj" />
-		<ProjectReference Include="..\Producto.Infraestructura\Producto.Infraestructura.csproj" />
+	  <ProjectReference Include="..\Producto.Dominio\Reciclaje.Dominio.csproj" />
+	  <ProjectReference Include="..\Producto.Infraestructura\Reciclaje.Infraestructura.csproj" />
 	</ItemGroup>
 
 </Project>

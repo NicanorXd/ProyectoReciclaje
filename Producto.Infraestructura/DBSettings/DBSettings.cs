@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Producto.Infraestructura.DBSettings
+namespace Reciclaje.Infraestructura.DBSettings
 {
     public class DBSettings : IDBSettings
     {

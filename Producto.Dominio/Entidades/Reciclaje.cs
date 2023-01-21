@@ -7,26 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Producto.Dominio.Entidades
+namespace Reciclaje.Dominio.Entidades
 {
     [BsonIgnoreExtraElements]
-    public class Producto
+    public class Reciclaje
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string _id { get; set; }
-        public int IdProducto { get; set; }
+        public int materialId { get; set; }
 
-        public string Nombre { get; set; }
+        public string materialDescr { get; set; }
 
-        public string Descripcion { get; set; }
+        public double unidadMediadId { get; set; }
 
-        public int Precio { get; set; }
+        public double materialPrecioUnidad { get; set; }
 
-        public string Categoria { get; set; }
+        public double materialLimite { get; set; }
 
-        public string Imagenes { get; set; }
-
-        public int Stock { get; set; }
     }
 }

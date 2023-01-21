@@ -4,21 +4,21 @@ using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Producto.Api.Routes;
-using Producto.Aplicacion.Producto.Read;
-using Producto.Dominio.Servicios;
-using static Producto.Api.Routes.ApiRoutes;
-using dominio = Producto.Dominio.Entidades;
+using Reciclaje.Api.Routes;
+using Reciclaje.Aplicacion.Producto.Read;
+using Reciclaje.Dominio.Servicios;
+using static Reciclaje.Api.Routes.ApiRoutes;
+using dominio = Reciclaje.Dominio.Entidades;
 
-namespace Producto.Api.Controllers
+namespace Reciclaje.Api.Controllers
 {
     [ApiController]
-    public class ProductoController : ControllerBase
+    public class ReciclajeController : ControllerBase
     {
-        private ProductoQueryAll db = new ProductoQueryAll();
+        private ReciclajeQueryAll db = new ReciclajeQueryAll();
 
-        [HttpGet(RouteProducto.GetAll)]
-        public IEnumerable<dominio.Producto> ListarProductos()
+        [HttpGet(RouteReciclaje.GetAll)]
+        public IEnumerable<dominio.Reciclaje> ListarMateriales()
         {
             //#region Conexión a base de datos
             //var client = new MongoClient("mongodb://localhost:27017");
@@ -28,8 +28,8 @@ namespace Producto.Api.Controllers
 
             //var listaProducto = collection.Find(x => true).ToList();
 
-            var listaProducto = db.ListarProductos();
-            return listaProducto;
+            var listarMateriales = db.ListarMateriales();
+            return listarMateriales;
         }
 
        // [HttpGet(RouteProducto.GetById)]
@@ -46,32 +46,32 @@ namespace Producto.Api.Controllers
   //          return objProducto;
   //      }
 
-        [HttpPost(RouteProducto.Create)]
-        public ActionResult<dominio.Producto> CrearProducto(dominio.Producto producto)
+        [HttpPost(RouteReciclaje.Create)]
+        public ActionResult<dominio.Reciclaje> CrearMaterial(dominio.Reciclaje reciclaje)
         {
             #region Conexión a base de datos
             var client = new MongoClient("mongodb://localhost:27017");
-            var database = client.GetDatabase("ProyectoTaller");
-            var collection = database.GetCollection<dominio.Producto>("productos");
+            var database = client.GetDatabase("Reciclaje");
+            var collection = database.GetCollection<dominio.Reciclaje>("material");
             #endregion
 
-            producto._id = ObjectId.GenerateNewId().ToString();
-            collection.InsertOne(producto);
+            reciclaje._id = ObjectId.GenerateNewId().ToString();
+            collection.InsertOne(reciclaje);
             //producto.IdProducto = listaProducto.Count() + 1;
             //listaProducto.Add(producto);
             return Ok();
         }
 
-        [HttpPut(RouteProducto.Update)]
-        public ActionResult<dominio.Producto> ModificarProducto(dominio.Producto producto)
+        [HttpPut(RouteReciclaje.Update)]
+        public ActionResult<dominio.Reciclaje> ModificarMaterial(dominio.Reciclaje reciclaje)
         {
             #region Conexión a base de datos
             var client = new MongoClient("mongodb://localhost:27017");
-            var database = client.GetDatabase("ProyectoTaller");
-            var collection = database.GetCollection<dominio.Producto>("productos");
+            var database = client.GetDatabase("Reciclaje");
+            var collection = database.GetCollection<dominio.Reciclaje>("material");
             #endregion
 
-            collection.FindOneAndReplace(x => x._id == producto._id, producto);
+            collection.FindOneAndReplace(x => x._id == reciclaje._id, reciclaje);
 
             //var oldProducto = collection.Find(x => x.IdProducto == producto.IdProducto).FirstOrDefault();
             //oldProducto.Nombre = producto.Nombre;
@@ -88,16 +88,16 @@ namespace Producto.Api.Controllers
             return Ok();
         }
 
-        [HttpDelete(RouteProducto.Delete)]
-        public ActionResult<dominio.Producto> EliminarProducto(int id)
+        [HttpDelete(RouteReciclaje.Delete)]
+        public ActionResult<dominio.Reciclaje> EliminarMaterial(int id)
         {
             #region Conexión a base de datos
             var client = new MongoClient("mongodb://localhost:27017");
-            var database = client.GetDatabase("ProyectoTaller");
-            var collection = database.GetCollection<dominio.Producto>("productos");
+            var database = client.GetDatabase("Reciclaje");
+            var collection = database.GetCollection<dominio.Reciclaje>("material");
             #endregion
 
-            collection.FindOneAndDelete(x => x.IdProducto == id);
+            collection.FindOneAndDelete(x => x.materialId == id);
             //listaProducto.RemoveAt(id);
             return Ok(id);
         }

@@ -13,9 +13,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Producto.Aplicacion\Producto.Aplicacion.csproj" />
-		<ProjectReference Include="..\Producto.Dominio\Producto.Dominio.csproj" />
-		<ProjectReference Include="..\Producto.Infraestructura\Producto.Infraestructura.csproj" />
+		<ProjectReference Include="..\Producto.Aplicacion\Reciclaje.Aplicacion.csproj" />
+		<ProjectReference Include="..\Producto.Dominio\Reciclaje.Dominio.csproj" />
+		<ProjectReference Include="..\Producto.Infraestructura\Reciclaje.Infraestructura.csproj" />
 	</ItemGroup>
 
 

@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producto.Api", "WebApplication1\Producto.Api.csproj", "{FC469BAD-2AD3-4B56-8C1E-77EE226FB60D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reciclaje.Api", "WebApplication1\Reciclaje.Api.csproj", "{FC469BAD-2AD3-4B56-8C1E-77EE226FB60D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producto.Aplicacion", "Producto.Aplicacion\Producto.Aplicacion.csproj", "{D913BD1F-E42F-48D7-8C17-AC97C523D155}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reciclaje.Aplicacion", "Producto.Aplicacion\Reciclaje.Aplicacion.csproj", "{D913BD1F-E42F-48D7-8C17-AC97C523D155}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producto.Dominio", "Producto.Dominio\Producto.Dominio.csproj", "{2284DFDE-33BC-430F-9C4B-DC2CE4DFB573}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reciclaje.Dominio", "Producto.Dominio\Reciclaje.Dominio.csproj", "{2284DFDE-33BC-430F-9C4B-DC2CE4DFB573}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producto.Infraestructura", "Producto.Infraestructura\Producto.Infraestructura.csproj", "{738849A2-8E8A-4193-9C83-76A52DE75489}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reciclaje.Infraestructura", "Producto.Infraestructura\Reciclaje.Infraestructura.csproj", "{738849A2-8E8A-4193-9C83-76A52DE75489}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

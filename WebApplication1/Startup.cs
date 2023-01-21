@@ -6,13 +6,13 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Producto.Infraestructura.DBSettings;
+using Reciclaje.Infraestructura.DBSettings;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Producto.Infraestructura.DBSettings;
-namespace Producto.Api
+using Reciclaje.Infraestructura.DBSettings;
+namespace Reciclaje.Api
 {
     public class Startup
     {
